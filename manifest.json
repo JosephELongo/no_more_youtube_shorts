@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "No_More_YouTube_Shorts",
+  "version": "1.0",
+  "description": "Hides Shorts content from the YouTube homepage",
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "permissions": ["storage"]
+}
