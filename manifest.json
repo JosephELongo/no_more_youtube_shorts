@@ -8,6 +8,5 @@
       "matches": ["*://*.youtube.com/*"],
       "js": ["content.js"]
     }
-  ],
-  "permissions": ["storage"]
+  ]
 }
