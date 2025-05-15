@@ -8,5 +8,10 @@
       "matches": ["*://*.youtube.com/*"],
       "js": ["content.js"]
     }
-  ]
+  ],
+  "icons": {
+    "16": "icons/NoYoutubeShorts16.png",
+    "48": "icons/NoYoutubeShorts48.png",
+    "128": "icons/NoYoutubeShorts128.png"
+  }
 }
