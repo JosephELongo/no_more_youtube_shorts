@@ -8,6 +8,7 @@ function hideShortsContents() {
   //This function looks at the innerText attribute of each header and asks if it contains the word "Shorts"
   //If it does, set that header to be invisible
   richSectionRenderers.forEach(richSectionRenderer => {
+    if (!richSectionRenderer) return;
     if (richSectionRenderer.innerText.includes("Shorts")) {
       richSectionRenderer.style.display = "none";
     }
@@ -17,7 +18,8 @@ function hideShortsContents() {
   //Same as before, iterate over those items and set them to be invisible
   const shortsRichItemRenderers = document.querySelectorAll('ytd-rich-item-renderer:has(a[href*="shorts"])');
   shortsRichItemRenderers.forEach(shortsRichItemRenderer => {
-    shortsRichItemRenderers.style.display = "none";
+    if (!shortsRichItemRenderer) return;
+    shortsRichItemRenderer.style.display = "none";
   });
 }
 
