@@ -1,1 +1,11 @@
 # no_more_youtube_shorts
+
+I have been using YouTube for over a decade. Truthfully, I have no idea if the platform has been healthy for me. I've spent countless hours watching gaming let's plays, rock climbing documentaries, recipe videos, and more. Some of this content has likely been detrimental to my brain, but some of it has also been educational. To me, YouTube operates in a grey space: some of the content is fine to consume, some of it is less fine.
+
+However, I believe there is something wicked on YouTube: YouTube shorts. Short form vertical content is, in my opinion, pretty close to being unequivocally bad for us. Importantly, I don't have any particular evidence for this. Anecdotallly, I find myself scrolling for longer periods of time and jumping between content at a rate that isn't conducive to a healthy attention span. I am not on Instagram, TikTok, or Snapchat, but I have found it hard to give up on YouTube.
+
+What's the problem? I am fairly confident that YouTube knows short form content leads to more time spent on the platform. As a result, it feels as though YouTube has been pushing more and more short form content; over time, YouTube shorts seemed to creep up the homepage. Now, (as of May 15th, 2025) they are the second row of content on the homepage.
+
+In general, I believe that people *tend* to make the choice that's easiest. If people have sugary cereals in their cabinet, they'll eat those cereals before the vegetables next to them. If people have a video game console in front of them, they'll play games before opting for a dense text. And if people have a short form video in front of them *that's designed to capture their attention*, they will click on it before they opt to watch a long form essay. I'm certainly one of those people. I'd like to become a better person; I'd like to have a longer attention span. Importantly, I'd like to have influence over the systems that point me in the direction of specific content.
+
+And thus, this idea was born! How can I create a Chrome extension that modifies the YouTube homepage to hide YouTube shorts. I am by no means a proper software engineer, but I'd like to see what I can build.
