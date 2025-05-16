@@ -21,6 +21,13 @@ function hideShortsContents() {
     if (!shortsRichItemRenderer) return;
     shortsRichItemRenderer.style.display = "none";
   });
+
+  //Now, Shorts are blocked on the homepage. But now, we need to remove them when we have a video open
+  const shortsShelfRenderers = document.querySelectorAll('ytd-reel-shelf-renderer');
+  shortsShelfRenderers.forEach(shortsShelfRenderer => {
+    if (!shortsShelfRenderer) return;
+    shortsShelfRenderer.style.display = "none";
+  });
 }
 
 //When content.js is called for the first time, run hideShortsContents
